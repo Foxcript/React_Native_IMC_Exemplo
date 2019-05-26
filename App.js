@@ -78,8 +78,7 @@ export default class App extends Component<Props> {
       <View style={styles.container}>
 
         <View style={styles.entrada}>
-
-          <TextInput placeholder="Altura" keyboardType="numeric" style={styles.input} 
+          <TextInput placeholder="Altura" keyboardType="numeric" style={[styles.input, {marginRight: 5, marginLeft: 1}]} 
            onChangeText={(altura)=>{this.setState({altura})}}
            />
           <TextInput placeholder="Massa" keyboardType="numeric" style={styles.input} 
@@ -111,12 +110,15 @@ const styles = StyleSheet.create({
     marginBottom: 5,
   },
   input: {
-    height: 80,
+    height: '100%',
     textAlign: "center",
-    width:"50%",
+    width:"49%",
     fontSize:50,
-    marginTop:24,
-    borderColor: '#6610f2',
+    marginTop:2,
+    borderColor: '#343a40',
+    borderWidth: 1,
+    backgroundColor: '#03a87c',
+    borderRadius: 15,
   },
 
   botao:{
@@ -153,6 +155,7 @@ const styles = StyleSheet.create({
     textAlign:"center",
     fontSize: 26,
     padding: 13,
+    marginTop: 5,
   }
 
 });
