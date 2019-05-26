@@ -115,7 +115,7 @@ const styles = StyleSheet.create({
     width:"49%",
     fontSize:50,
     marginTop:2,
-    borderColor: '#343a40',
+    borderColor: '#6c757d',
     borderWidth: 1,
     backgroundColor: '#03a87c',
     borderRadius: 15,
@@ -127,12 +127,12 @@ const styles = StyleSheet.create({
     position: 'absolute',
     bottom: 20,
     borderRadius: 90,
-    alignSelf: 'center'
+    alignSelf: 'center',
   },
 
   botaoText:{
     alignSelf: 'center',
-    padding: 30,
+    padding: 20,
     fontSize:25,
     color: "#fff",
     fontWeight: 'bold',
