@@ -60,7 +60,7 @@ export default class App extends Component<Props> {
     {
       result.resultadoText = "Obesidade Grau II (Severa)"
     }
-    else if (result.resultado>40)
+    else if (result.resultado>=40)
     {
       result.resultadoText = "Obesidade Grau III (Morbida)"
     }
