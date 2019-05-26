@@ -116,6 +116,7 @@ const styles = StyleSheet.create({
     width:"50%",
     fontSize:50,
     marginTop:24,
+    borderColor: '#6610f2',
   },
 
   botao:{
